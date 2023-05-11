@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    image: hmg
+    ports:
+      - 80:80
+    environment:
+      - FLAG=flag{8aad29a7-9270-1f80-f10c-df7777a2edef}
